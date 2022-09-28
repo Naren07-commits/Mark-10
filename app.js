@@ -29,11 +29,11 @@ function calculateChange(returnAmount) {
   }
 }
 
-function hideMsg() {
+function hideMsg(msg) {
   msg.style.display = "none";
 }
 
 function showMsg(msg) {
-  message.style.display = "block";
-  message.innerText = msg;
+  msg.style.display = "block";
+  msg.innerText = msg;
 }
