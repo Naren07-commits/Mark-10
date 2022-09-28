@@ -29,7 +29,7 @@ function calculateChange(returnAmount) {
   }
 }
 
-function hideMsg(msg) {
+function hideMsg() {
   msg.style.display = "none";
 }
 
